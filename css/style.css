@@ -1,0 +1,134 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 16px;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+}
+html * {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  /* параменты и размер страницы */
+  width: 78%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* параменты верхней части страницы */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  /* задаю для разположение вниз */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* выравнивание по центру  */
+  border-bottom: 2px solid #d2d2d2;
+}
+
+.wrapper .header .header__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .header .header__menu .header-menu__list {
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* выравнивание по центру  */
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* выравнивание по центру  */
+}
+
+.wrapper .header .header__menu .header-menu__list .menu-list__item {
+  list-style: none;
+  /* убрать параметры маркеров  */
+  margin-left: 23px;
+  padding: 18px 15px;
+  font-size: 0;
+}
+
+.wrapper .header .header__menu .header-menu__list .menu-list__item:hover {
+  background-color: #5c5c5c;
+  /* при наведении меняеться фон */
+}
+
+.wrapper .header .header__menu .header-menu__list .menu-list__item .menu-list__link {
+  font-size: 15px;
+  color: #000;
+  text-decoration: none;
+}
+
+.wrapper .header .header__menu .header-menu__list .menu-list__item .menu-list__link:hover {
+  color: white;
+}
+
+.wrapper .header .header__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* параменты верхней части страницы */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  /* выравнивание по центру  */
+  padding: 157px 0 118px 0;
+}
+
+.wrapper .header .header__item .header-item__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 160px;
+  height: 160px;
+  background: #df6267;
+  /* фон логитипа   */
+  border-radius: 50%;
+  /* параментры для круга  */
+}
+
+.wrapper .header .header__item .header-item__title .header-title__info {
+  padding: 56px 0 0 0;
+  font-size: 43px;
+  text-transform: uppercase;
+  /* Все символы текста становятся прописными (верхний регистр) */
+}
+/*# sourceMappingURL=style.css.map */

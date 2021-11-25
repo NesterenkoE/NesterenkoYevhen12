@@ -1,0 +1,76 @@
+@import "reset.scss";
+
+
+html * {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {  /* параменты и размер страницы */
+    width: 78%;
+    margin: 0 auto;
+    text-align: center;
+
+// ----Start Header---- 
+    .header { 
+        display: flex;  /* параменты верхней части страницы */
+        flex-direction: column; /* задаю для разположение вниз */
+        align-items: center; /* выравнивание по центру  */
+        border-bottom: 2px solid #d2d2d2;
+        .header__menu { 
+            display: flex;
+            justify-content: center;
+            .header-menu__list {
+                width: 50%;
+                display: flex;
+                justify-content: center; /* выравнивание по центру  */
+                align-items: center; /* выравнивание по центру  */
+                .menu-list__item {
+                    list-style: none; /* убрать параметры маркеров  */
+                    margin-left: 23px;
+                    padding: 18px 15px;
+                    font-size: 0;
+                    &:hover {
+                        background-color: rgb(92, 92, 92); /* при наведении меняеться фон */
+                    }
+                    .menu-list__link {
+                        font-size: 15px;
+                        color: #000;
+                        text-decoration: none;
+                            &:hover {
+                                color: white;
+                            }
+                    }
+                }
+                
+            }
+        }
+        .header__item {
+            display: flex;  /* параменты верхней части страницы */
+            flex-direction: column; 
+            align-items: center; /* выравнивание по центру  */
+            padding: 157px 0 118px 0;
+            .header-item__logo { 
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 160px;
+                height: 160px;
+                background: #df6267; /* фон логитипа   */
+                border-radius: 50%; /* параментры для круга  */
+            }
+            .header-item__title {
+                .header-title__info {
+                    padding: 56px 0 0 0;
+                    font-size: 43px;
+                    text-transform: uppercase; /* Все символы текста становятся прописными (верхний регистр) */
+                }
+            }
+        }
+    }
+// ----End Header----  
+
+}
+
