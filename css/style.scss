@@ -192,7 +192,7 @@ html * {
         .content__button {
             padding: 24px 100px; 
             background-color: #df6267;
-            border-radius: 5px;
+            border-radius: 5px; 
             font-family: 'Times New Roman', Times, serif; /* смена шрифта по макету */
             color: #fff; /* цвет шрифта по макету */
             font-size: 18px;
@@ -218,5 +218,27 @@ html * {
     }
 }
 // ----End Content---
+
+.footer {
+    width: 63%;
+    margin: 0 auto;
+    .footer__menu {
+        padding-top: 69px;
+        .footer-menu__list {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+            font-size: 0;
+            margin-left: 40px;
+            .footer-menu__link a {
+                font-size: 16px;
+                color: blue;
+                text-decoration: none;
+                padding: 10px 20px;
+                border-radius: 15px;
+            }
+        }
+    }
+}
 }
 
