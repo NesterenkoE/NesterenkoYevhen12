@@ -210,16 +210,16 @@ html * {
                 font-size: 18px;
                 font-weight: bold; /* устанавливает начертание шрифта. */
                 text-decoration: none;
-                transition: all 0.5s;
+                transition: all 0.5s; /* анимация */
             }
             .content__title {
                 font-size: 23px;
                 letter-spacing: .4px;
-                padding: 42px 0 20px 0;
+                padding: 42px 0 20px 0; /* оступ информации  */
             }
             .content__info {
-                font-size: 17.4px;
-                line-height: 72px;
+                font-size: 17.4px; /* оступ информации  */
+                line-height: 72px; /* оступ информации  */
                 color: #8b8989;
             }
             .content__text {
@@ -264,7 +264,7 @@ html * {
 
 }
 
-@media screen and (max-width: 905px) {
+@media screen and (max-width: 905px) { /* адаптация к 905 пикселей */
     .wrapper .header .header__item .header-item__title .header-title__info {
         font-size: 35px;
       }
@@ -286,7 +286,7 @@ html * {
 
 }   
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { /* адаптация к 600 пикселей */
     .wrapper .header .header__item .header-item__title .header-title__info {
         font-size: 35px;
       }
