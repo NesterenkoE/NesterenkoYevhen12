@@ -286,6 +286,38 @@ html * {
 
 }   
 
+@media screen and (max-width: 600px) {
+    .wrapper .header .header__item .header-item__title .header-title__info {
+        font-size: 35px;
+      }
+
+      .wrapper .container .container__site {
+          display: flex;
+          flex-direction: column;
+      }
+
+      .wrapper .container .gallery {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .wrapper .container .gallery a img {
+        width: 100%;
+        overflow: hidden;
+      }
+      
+      .wrapper .header .header__menu .header-menu__list {
+          display: none;
+      }
+
+      .wrapper .footer .footer__menu .footer-menu__list .footer-menu__link a {
+        font-size: 13px;
+      }
+
+      #menuToggle {
+          display: block;
+      }
+}   
 
 
 
