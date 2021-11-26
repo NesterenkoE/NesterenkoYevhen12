@@ -182,5 +182,41 @@ html * {
     }
 }
 // ----End Secondary---
+
+// ----Start Content---
+.content {
+    padding-top: 93px;
+    padding-bottom: 52px;
+    border-bottom: 2px solid #d2d2d2;
+    .content__information {
+        .content__button {
+            padding: 24px 100px; 
+            background-color: #df6267;
+            border-radius: 5px;
+            font-family: 'Times New Roman', Times, serif; /* смена шрифта по макету */
+            color: #fff; /* цвет шрифта по макету */
+            font-size: 18px;
+            font-weight: bold; /* устанавливает начертание шрифта. */
+            text-decoration: none;
+            transition: all 0.5s;
+        }
+        .content__title {
+            font-size: 23px;
+            letter-spacing: .4px;
+            padding: 42px 0 20px 0;
+        }
+        .content__info {
+            font-size: 17.4px;
+            line-height: 72px;
+            color: #8b8989;
+        }
+        .content__text {
+            font-size: 17.4px;
+            line-height: 35px;
+            color: #8b8989;
+        }
+    }
+}
+// ----End Content---
 }
 
