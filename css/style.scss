@@ -114,6 +114,35 @@ html * {
             }
         }
     }
+    .container__information {
+        .container__button {
+            padding: 24px 95px;
+            background-color: #df6267;
+            border-radius: 5px;
+            font-family: 'Times New Roman', Times, serif;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold; /* устанавливает начертание шрифта. */
+            text-decoration: none;
+            transition: all 0.5s;
+        }
+        .container__title {
+            font-size: 25px;
+            letter-spacing: .4px; /* Определяет интервал между символами в пределах элемента. */
+            padding: 40px 0 18px 0;
+        }
+        .container__info {
+            font-size: 17.4px;
+            line-height: 70px; /* устанавливает величину пространства между строками */
+            color: #8b8989;
+        }
+        .container__text {
+            font-size: 17.4px;
+            line-height: 35px; /* устанавливает величину пространства между строками */
+            color: #8b8989;
+        }
+    }
 }
+// ----End Container---
 }
 
